@@ -115,6 +115,8 @@
     <!-- 2. Configure SystemJS -->
     <script>
       System.config({
+	  	"baseURL": "kendo-bro/",
+	    "defaultJSExtensions": true,
         packages: {        
           app: {
             format: 'register',
@@ -122,7 +124,7 @@
           }
         }
       });
-      System.import('kendo-bro/app/main.js')
+      System.import('app/main')
             .then(null, console.error.bind(console));
     </script>
   </head>
