@@ -2,7 +2,7 @@
   "name": "kendo-bro",
   "version": "0.0.1",
   "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "start": "tsc",
     "lite": "lite-server",
     "postinstall": "typings install",
     "tsc": "tsc",
