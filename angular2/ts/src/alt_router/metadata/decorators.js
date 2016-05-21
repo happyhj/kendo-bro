@@ -1,0 +1,19 @@
+System.register(["./metadata", 'angular2/src/core/util/decorators'], function(exports_1, context_1) {
+    "use strict";
+    var __moduleName = context_1 && context_1.id;
+    var metadata_1, decorators_1;
+    var Routes;
+    return {
+        setters:[
+            function (metadata_1_1) {
+                metadata_1 = metadata_1_1;
+            },
+            function (decorators_1_1) {
+                decorators_1 = decorators_1_1;
+            }],
+        execute: function() {
+            exports_1("Routes", Routes = decorators_1.makeDecorator(metadata_1.RoutesMetadata));
+        }
+    }
+});
+//# sourceMappingURL=decorators.js.map

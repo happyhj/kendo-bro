@@ -16,7 +16,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Bogu,
                     qualitycClass: item_1.QualitycClass.Silver,
                     description: "",
-                    imageUrl: "/img/SLM-G/SLM-G_000.jpg",
+                    imageUrl: "kendo-bro/img/SLM-G/SLM-G_000.jpg",
                     detailImageUrls: []
                 },
                 {
@@ -25,7 +25,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Men,
                     qualitycClass: item_1.QualitycClass.Silver,
                     description: "",
-                    imageUrl: "/img/SLM-G/SLM-G_010.JPG",
+                    imageUrl: "kendo-bro/img/SLM-G/SLM-G_010.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -34,7 +34,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Kote,
                     qualitycClass: item_1.QualitycClass.Silver,
                     description: "",
-                    imageUrl: "/img/SLM-G/SLM-G_020.JPG",
+                    imageUrl: "kendo-bro/img/SLM-G/SLM-G_020.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -43,7 +43,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Tare,
                     qualitycClass: item_1.QualitycClass.Silver,
                     description: "",
-                    imageUrl: "/img/SLM-G/SLM-G_040.JPG",
+                    imageUrl: "kendo-bro/img/SLM-G/SLM-G_040.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -52,7 +52,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Bogu,
                     qualitycClass: item_1.QualitycClass.Silver,
                     description: "",
-                    imageUrl: "/img/SSM-X/SSM-X_000.jpg",
+                    imageUrl: "kendo-bro/img/SSM-X/SSM-X_000.jpg",
                     detailImageUrls: []
                 },
                 {
@@ -61,7 +61,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Men,
                     qualitycClass: item_1.QualitycClass.Silver,
                     description: "",
-                    imageUrl: "/img/SSM-X/SSM-X_010.JPG",
+                    imageUrl: "kendo-bro/img/SSM-X/SSM-X_010.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -70,7 +70,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Kote,
                     qualitycClass: item_1.QualitycClass.Silver,
                     description: "",
-                    imageUrl: "/img/SSM-X/SSM-X_020.JPG",
+                    imageUrl: "kendo-bro/img/SSM-X/SSM-X_020.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -79,7 +79,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Tare,
                     qualitycClass: item_1.QualitycClass.Silver,
                     description: "",
-                    imageUrl: "/img/SSM-X/SSM-X_040.JPG",
+                    imageUrl: "kendo-bro/img/SSM-X/SSM-X_040.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -88,7 +88,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Bogu,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/GLM/GLM_000.jpg",
+                    imageUrl: "kendo-bro/img/GLM/GLM_000.jpg",
                     detailImageUrls: []
                 },
                 {
@@ -97,7 +97,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Men,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/GLM/GLM_010.JPG",
+                    imageUrl: "kendo-bro/img/GLM/GLM_010.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -106,7 +106,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Kote,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/GLM/GLM_020.JPG",
+                    imageUrl: "kendo-bro/img/GLM/GLM_020.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -115,7 +115,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Tare,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/GLM/GLM_040.JPG",
+                    imageUrl: "kendo-bro/img/GLM/GLM_040.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -124,7 +124,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Bogu,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/GSM-X/GSM-X_000.jpg",
+                    imageUrl: "kendo-bro/img/GSM-X/GSM-X_000.jpg",
                     detailImageUrls: []
                 },
                 {
@@ -133,7 +133,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Men,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/GSM-X/GSM-X_010.JPG",
+                    imageUrl: "kendo-bro/img/GSM-X/GSM-X_010.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -142,7 +142,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Kote,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/GSM-X/GSM-X_020.JPG",
+                    imageUrl: "kendo-bro/img/GSM-X/GSM-X_020.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -151,7 +151,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Tare,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/GLM/GLM_040.JPG",
+                    imageUrl: "kendo-bro/img/GLM/GLM_040.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -160,7 +160,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Bogu,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/GHM/GHM_000.jpg",
+                    imageUrl: "kendo-bro/img/GHM/GHM_000.jpg",
                     detailImageUrls: []
                 },
                 {
@@ -169,7 +169,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Men,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/GHM/GHM_010.JPG",
+                    imageUrl: "kendo-bro/img/GHM/GHM_010.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -178,7 +178,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Kote,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/GHM/GHM_020.JPG",
+                    imageUrl: "kendo-bro/img/GHM/GHM_020.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -187,7 +187,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Tare,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/GHM/GHM_040.JPG",
+                    imageUrl: "kendo-bro/img/GHM/GHM_040.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -196,7 +196,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Do,
                     qualitycClass: item_1.QualitycClass.Silver,
                     description: "",
-                    imageUrl: "/img/MUNE/MUNE_001.JPG",
+                    imageUrl: "kendo-bro/img/MUNE/MUNE_001.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -205,7 +205,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Do,
                     qualitycClass: item_1.QualitycClass.Silver,
                     description: "",
-                    imageUrl: "/img/MUNE/MUNE_002.JPG",
+                    imageUrl: "kendo-bro/img/MUNE/MUNE_002.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -214,7 +214,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Bogu,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/TSS/TSS_000.JPG",
+                    imageUrl: "kendo-bro/img/TSS/TSS_000.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -223,7 +223,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Men,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/TSS/TSS_010.jpg",
+                    imageUrl: "kendo-bro/img/TSS/TSS_010.jpg",
                     detailImageUrls: []
                 },
                 {
@@ -232,7 +232,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Kote,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/TSS/TSS_020.JPG",
+                    imageUrl: "kendo-bro/img/TSS/TSS_020.JPG",
                     detailImageUrls: []
                 },
                 {
@@ -241,7 +241,7 @@ System.register(['./item'], function(exports_1, context_1) {
                     category: item_1.Category.Tare,
                     qualitycClass: item_1.QualitycClass.Gold,
                     description: "",
-                    imageUrl: "/img/TSS/TSS_040.JPG",
+                    imageUrl: "kendo-bro/img/TSS/TSS_040.JPG",
                     detailImageUrls: []
                 }
             ]);
