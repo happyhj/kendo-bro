@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html manifest="cache.appcache">
+  <head>
+  	<base href="/">
+    <title>Kendo Bro</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">	
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+    <style>
+		h2 { 
+	  color: #444;
+	  font-family: Arial, Helvetica, sans-serif;   
+	  font-weight: lighter;
+	}
+	body, h2{ 
+	  margin: 0;
+	  padding: 0; 
+	}
+	body, input[text], button { 
+	  color: #888; 
+	  font-family: Cambria, Georgia; 
+	}
+	button {
+	  font-family: Arial;
+	  background-color: #eee;
+	  border: none;
+	  padding: 5px 10px;
+	  border-radius: 4px;
+	  cursor: pointer;
+	  cursor: hand;
+	}
+	button:hover {
+	  background-color: #cfd8dc;
+	}
+	button:disabled {
+	  background-color: #eee;
+	  color: #aaa; 
+	  cursor: auto;
+	}
+	/* everywhere else */
+	* { 
+	  font-family: Arial, Helvetica, sans-serif; 
+	}
+	
+	fieldset, iframe, img {
+	    border: 0;
+	}
+	
+	
+	.section-content {
+	    overflow: hidden;
+	}
+	
+	.section .max-width {
+	    margin-left: auto;
+	    margin-right: auto;
+	    box-sizing: border-box;
+	}
+	
+	.section .section-content {
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 980px
+	}
+	
+	@media only screen and (min-width: 1442px) {
+	    .section .section-content {
+	        margin-left:auto;
+	        margin-right: auto;
+	        width: 980px
+	    }
+	
+		.section .max-width {
+		    width: 100%;
+		    padding-left: 44px;
+		    padding-right: 44px;
+		}
+	}
+	
+	@media only screen and (max-width: 1068px) {
+	    .section .section-content {
+	        margin-left:auto;
+	        margin-right: auto;
+	        width: 692px
+	    }
+	}
+	
+	@media only screen and (max-width: 735px) {
+	    .section .section-content {
+	        margin-left:auto;
+	        margin-right: auto;
+	        width: 90%
+	    }
+	}
+	</style>
+
+    <!-- 1. Load libraries -->
+    <!-- IE required polyfills, in this exact order -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.0/es6-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.27/system-polyfills.js"></script>
+    <script src="https://npmcdn.com/angular2/es6/dev/src/testing/shims_for_IE.js"></script>   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/2.0.0-beta.17/angular2-polyfills.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.27/system.src.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/2.0.0-beta.17/Rx.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/2.0.0-beta.17/angular2.dev.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/2.0.0-beta.17/router.dev.js"></script>
+
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css"/>
+    
+    <!-- 2. Configure SystemJS -->
+    <script>
+      System.config({
+        packages: {        
+          app: {
+            format: 'register',
+            defaultExtension: 'js'
+          }
+        }
+      });
+      System.import('app/main')
+            .then(null, console.error.bind(console));
+    </script>
+  </head>
+
+  <!-- 3. Display the application -->
+  <body>
+    <my-app>Loading...</my-app>
+  </body>
+</html>
